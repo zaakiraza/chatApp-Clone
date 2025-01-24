@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* ########## Nav ########## */
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #d4b2bf;
+}
+
+.items {
+    position: relative;
+    left: 37%;
+}
+
+.items i {
+    font-size: 20px;
+    padding-left: 25px;
+    color: black;
+}
+
+.box {
+    width: 12%;
+    display: none;
+    position: absolute;
+    top: 11%;
+    left: 19%;
+    background: #dcb1be;
+    padding-top: 1%;
+}
+
+.box_items {
+    padding: 0;
+}
+
+.box_items li {
+    height: 32px;
+    list-style-type: none;
+    padding-left: 11px;
+}
+
+.box_items li a {
+    color: black;
+    text-decoration: none;
+}
+
+.content_chats {
+    border: 2px solid #dcb1be;
+    height: 100vh;
+    border-top: none;
+}
+
+.content_chats h1 {
+    font-size: 23px;
+    text-align: center;
+    padding-top: 66px;
+}
+
+section.chatUp.row {
+    margin-right: 0;
+}
+
+.content_friends i {
+    font-size: 23px;
+    position: fixed;
+    top: 30px;
+    right: 2%;
+}
+
+.default_link {
+    text-align: center;
+    padding-top: 22%;
+}
+
+i.fa-solid.fa-gear {
+    z-index: 3;
+}
+
+.friends {
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.friends {
+    margin-left: -12px;
+}
+
+section.chats {
+    background-color: #e9cad8;
+}
+
+.setting_option {
+    background-color: #dcb1be;
+    width: 29%;
+    padding: 10px 0px;
+    margin-top: -24%;
+    margin-left: 72%;
+    display: none;
+}
+
+.setting_option ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.setting_option ul li {
+    height: 43px;
+    font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+/* ########## Login ########## */
+
+.log_in {
+    margin-top: 7%;
+    text-align: center;
+}
+
+.box_login,
+.box_signup {
+    text-align: center;
+    width: 32%;
+    margin: 0 auto;
+    height: 26rem;
+    padding: 20px;
+    color: white;
+}
+
+.feilds_items {
+    margin-top: 50px;
+}
+
+.feilds_items input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 13px;
+    margin-bottom: 17px;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    color: black;
+    font-weight: 700;
+    font-size: 23px;
+    margin-top: 34px;
+}
+
+.box_login h1,
+.box_signup h1 {
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.box_signup {
+    height: 36rem;
+    display: none;
+    margin-bottom: 50px;
+    width: 32.5%;
+}
+
+.log_in button {
+    padding: 12px 61px;
+    border: 1px solid black;
+    font-size: 23px;
+    color: black;
+    font-weight: 700;
+    background-color: transparent;
+    border-radius: 31px;
+}
+
+#btn1:hover {
+    background-color: lightblue;
+}
+
+#btn2:hover {
+    background-color: lightblue;
+}
+
+input[type="submit"]:hover {
+    background-color: lightblue;
+}
